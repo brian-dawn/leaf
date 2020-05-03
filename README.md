@@ -12,7 +12,11 @@ Hosted on [SourceHut](https://git.sr.ht/~brian-dawn/leaf) but also hosted on [Gi
 
 ## Usage (docker)
 
-First build the docker image, you only need to do this once. If you want to change the footer or the css you'll need to re-run it though:
+If you want to use a prebuilt image all you need to do is run:
+
+    cat blogpost.md | docker run -i briandawn/leaf > blogpost.html
+
+If you want to customize the footer or css first build the docker image, you only need to do this once.
 
     docker build -t leaf .
 
