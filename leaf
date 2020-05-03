@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# Additional options we can add:
+# Table of contents:
+#   --table-of-contents
+
+pandoc --self-contained                       \
+       --to html5+auto_identifiers            \
+       --include-after-body=footer.html       \
+       --css=styles.css                       \
+       --standalone $1                        \
+       --output $2
