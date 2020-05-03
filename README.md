@@ -9,7 +9,6 @@ Hosted on [SourceHut](https://git.sr.ht/~brian-dawn/leaf) but also hosted on [Gi
 * Pure self contained HTML/CSS. Even images get base64 encoded and embedded into the resulting HTML. This makes it really easy to share or host the page.
 * Support for dark and light color preferences (using the CSS prefers dark/light media selectors).
 
-
 ## Usage (docker)
 
 If you want to use a prebuilt image all you need to do is run:
@@ -30,3 +29,15 @@ If you don't want to use docker, all you need is [pandoc](https://pandoc.org/ins
 
     ./leaf blogpost.md blogpost.html
 
+## Adding a title
+
+Pandoc will read in yaml headers and read metadata off of that. For example
+to set a title you can do:
+
+```
+---
+title: My Title
+---
+
+Rest of the markdown here...
+```
