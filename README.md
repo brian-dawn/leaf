@@ -1,4 +1,4 @@
-# leaf
+# leaf 🍃
 
 A tool for generating standalone HTML articles/blog posts from markdown that are [designed to last](https://jeffhuang.com/designed_to_last/).
 
@@ -9,7 +9,7 @@ Hosted on [SourceHut](https://git.sr.ht/~brian-dawn/leaf) but also hosted on [Gi
 * Pure self contained HTML/CSS. Even images get base64 encoded and embedded into the resulting HTML. This makes it really easy to share or host the page.
 * Support for dark and light color preferences (using the CSS prefers dark/light media selectors).
 
-## Usage (docker)
+## Usage with Docker
 
 If you want to use a prebuilt image all you need to do is run:
 
@@ -23,13 +23,13 @@ Now you can stamp out pages with:
 
     cat blogpost.md | docker run -i leaf > blogpost.html
 
-## Usage (not docker)
+## Usage without Docker
 
 If you don't want to use docker, all you need is [pandoc](https://pandoc.org/installing.html). From this repo run:
 
     ./leaf blogpost.md blogpost.html
 
-## Adding a title
+## Adding a Title
 
 Pandoc will read in yaml headers and read metadata off of that. For example
 to set a title you can do:
