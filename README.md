@@ -11,7 +11,7 @@ Hosted on [SourceHut](https://git.sr.ht/~brian-dawn/leaf) but also hosted on [Gi
 
 ## Usage with Docker
 
-If you want to use a prebuilt image all you need to do is run:
+If you want to use a prebuilt image all you need to do is run (note you'll need to mount any local resources like images and whatnot):
 
     cat blogpost.md | docker run -i briandawn/leaf > blogpost.html
 
