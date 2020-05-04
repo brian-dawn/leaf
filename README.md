@@ -1,6 +1,6 @@
 # leaf 🍃
 
-A tool for generating standalone HTML articles/blog posts from markdown that are [designed to last](https://jeffhuang.com/designed_to_last/).
+A tool for generating standalone HTML articles/blog posts from markdown that are [designed to last](https://jeffhuang.com/designed_to_last/). Check out an example [here](https://cloudflare-ipfs.com/ipfs/QmSnWJ1YtNzGcLDRYVj8ox6B4ZPDWEZAmojWPhPwW1mVK3), because this site is self contained it mains it trivial to host on [ipfs](https://ipfs.io).
 
 Hosted on [SourceHut](https://git.sr.ht/~brian-dawn/leaf) but also hosted on [Github](https://github.com/brian-dawn/leaf) for convenience. If you're curious why SourceHut is neat check out [this](https://sourcehut.org/blog/2019-10-23-srht-puts-users-first/).
 
