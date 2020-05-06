@@ -36,7 +36,7 @@ a:visited {
 }
 
 a:hover {
-  color: #0184BC;
+    text-decoration: underline;
 }
 
 a:active {
@@ -380,7 +380,7 @@ code span.wa { color: #50A14F; font-weight: normal; } /* Warning */
   }
   
   a:hover {
-    color: #56b6c2;
+    text-decoration: underline;
   }
   
   a:active {
