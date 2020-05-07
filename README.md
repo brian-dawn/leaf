@@ -43,3 +43,24 @@ title: My Title
 
 Rest of the markdown here...
 ```
+
+## Extra Features
+
+Because this is pandoc markdown we can do some extra things with it. For example we
+can render math:
+
+$${\langle F\rangle=\frac{1}{N_f}\sum_i F_i}$$
+
+Or tables:
+
+<center>
+Ingredients     Amount
+-----------     ------
+Flour           1 cup     
+Water           1 cup  
+--------------------------
+
+Table:  Table Example
+</center>
+
+

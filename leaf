@@ -6,6 +6,7 @@
 
 pandoc --self-contained                       \
        --to html5+auto_identifiers            \
+       --mathml                               \
        --include-after-body=footer.html       \
        --css=styles.css                       \
        --standalone $1                        \
