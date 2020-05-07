@@ -2,7 +2,7 @@
 
 A tool for generating standalone HTML articles/blog posts from markdown that are [designed to last](https://jeffhuang.com/designed_to_last/). 
 
-[Example](https://cloudflare-ipfs.com/ipfs/QmPVKY5CFmFSNdwR88BwEmj4eAcV6N13Nf6pt4i5Jc5BS7).
+[Example](https://cloudflare-ipfs.com/ipfs/Qma1aUbMG8iZgXzViqwFM1hHUyjtUvabok5yGQHzZzgBj2).
 
 Hosted on [SourceHut](https://git.sr.ht/~brian-dawn/leaf) but also hosted on [Github](https://github.com/brian-dawn/leaf) for convenience. If you're curious why SourceHut is neat check out [this](https://sourcehut.org/blog/2019-10-23-srht-puts-users-first/).
 
