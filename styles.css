@@ -21,6 +21,11 @@ body {
   background: #fefefe;
 }
 
+header {
+
+  margin-bottom: 8em;
+}
+
 footer {
   margin-top:5em;
   text-align: right;
@@ -242,7 +247,6 @@ table td {
 }
 
 .author {
-
   margin-top: -2em;
   font-size: 0.8em;
   text-align: center;
