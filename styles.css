@@ -242,7 +242,14 @@ table td {
 }
 
 .author {
-  font-size: 1.2em;
+
+  margin-top: -2em;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5em;
   text-align: center;
 }
 
@@ -282,6 +289,7 @@ table td {
   a[href]:after {
     content: " (" attr(href) ")";
   }
+  
 
   abbr[title]:after {
     content: " (" attr(title) ")";
@@ -323,6 +331,16 @@ table td {
   }
 }
 
+.orange {
+  background: #e5c07b; 
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .orange {
+    background: #C18401; 
+  }
+}
 /*
  * I'm doing color theme setting here for source code so later I can turn on dark
  * mode
